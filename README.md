@@ -6,3 +6,6 @@ SQL DOSYASI klasöründe bulunan sql dosyasını phpmyadmin'den içeri aktar diy
 Varsıyalın kullanıcı bilgileri
 Kullanıcı Adı : admin
 Şifre         : 1
+
+
+Demo Website: http://stok.website
