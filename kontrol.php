@@ -21,8 +21,8 @@ if(isset($_GET['kadi'])){
 	
 	header("Location:giris.php");
 }
-$kadi = trim($_POST['kadi']);
-$sifre = trim($_POST['sifre']);
+$kadi = mysql_real_escape_string(trim($_POST['kadi']));
+$sifre = mysql_real_escape_string(trim($_POST['sifre']));
 
 $sql_check = mysql_query("select * from kullanicilar where kullaniciadi='".$kadi."' and sifre='".$sifre."' ") or die(mysql_error());
 
