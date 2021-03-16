@@ -9,3 +9,11 @@ Kullanıcı Adı : admin
 
 
 Demo Website: http://stok.website
+
+# Php-MySql-Stock-Tracking
+Warehouse and Stock Tracking System with Simple Interface Designed Using Php and Mysql
+For Database Connection Settings
+Replace the information in ek / vt_baglantisi.php with your own.
+Create the tables by saying Import the sql file in the SQL FILE folder from phpmyadmin
+Hypothetical user information
+Demo Website: http://stok.website
